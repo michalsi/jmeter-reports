@@ -17,7 +17,6 @@ IMAGE_HEIGHT=800
 rm -r $RESULTS/*
 mkdir -p $RESULTS
 
-
 numberOfTests=`find $TEST_CASES -maxdepth 1 -type f | wc -l`
 echo "=============="
 echo "About to execute tests: $numberOfTests"
@@ -28,9 +27,9 @@ find $TEST_CASES | grep '[0-9a-zA-Z\-]*\.jmx' -o
 # IMAGES=`find $IMAGE_FILES | grep $test_name'[A-Za-z0-9]*\.png' -o`
 echo "=============="
 
-echo "<html><head><title>JMeter results</title><script src=\"toggling.js\"></script> \
-<link rel=\"stylesheet\" type=\"text/css\" href=\"styles.css\"> \
-</head><body><h1>JMeter results</h1>" >> $RESULTS/results.html
+echo "<html><head><title>JMeter results</title><script type=\"text/javascript\" src=\"toggling.js\"></script>"  >> $RESULTS/results.html
+echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"styles.css\"> " >> $RESULTS/results.html
+echo "</head><body><h1>JMeter results</h1>" >> $RESULTS/results.html
 echo "<h2 ><a href=\"report/index.html\" class=\"inline-link-1\">Smmary report</a></h2>">> $RESULTS/results.html
 echo "<ul>">> $RESULTS/results.html
 
@@ -79,7 +78,7 @@ do
 		echo "<input type=\"image\" src=\"expand.png\" onclick=\"return toggleMe('$elem_id')\" value=\"Toggle\" id=\"$img_id\" >" >> $RESULTS/results.html
 		echo "${image/`basename $test_case .jmx`/} <br>" >> $RESULTS/results.html
 		echo "<div id=\"$elem_id\" style=\"display:none\" >" >> $RESULTS/results.html
-		echo "<img src=\"$image\" alt=$image > </div><br> " >> $RESULTS/results.Html
+		echo "<img src=\"$image\" alt=$image > </div><br> " >> $RESULTS/results.html
 		counter=$((counter+1))
 	done
 	echo"</div>" >> $RESULTS/results.Html
