@@ -1,13 +1,15 @@
-# Script tu run Jmeter test plans and format HTML raport
+# Script to run Jmeter test plans and format HTML rapport
 
-This is a small script that runs jmeter with confugured result paramteres. It's part of our work that we've done arround performance tests in on of the Kainos projects. Big kudos should go to the guys with whom I worked with there! :star: 
+This is a small script that runs jmeter with configured result parameters. It's part of our work that we've done around performance tests in on of the Kainos projects. Big kudos should go to the guys with whom I worked with there! :star: 
 
-It automatically detects tests plans that are placed in `tests` directory and run all of them.
++ Automatically detects tests plans that are placed in `tests` directory and run all of them.
++ Uses tools shipped with Jmeter (**CMDRunner** and **Xalan**) to parse results, prepare them in tabular form and generate graphs.
++ Different types of reports can be added, removed and configured in the script.
++ Creates HTML report for all tests scripts that has been run 
++ Displays collapsible images with performance metrics
 
-It uses tools shipped with Jmeter (**CMDRunner** and **Xalan**)to parse results, prepare them in tabular form and generate graphs.
+There's also a link to 'Summary report' which is produced by separate process but is not included here at the moment.
 
-Different types of reports can be added,removed and configured in the script.  
 
-It creates HTML report with run tests plans and attached images with performence metrics and are collapsable.
-
-There's also a link to 'Summary report' which is produced by separate process and not included in this package yet.
+**Working Example** of report for 2 test plans and 4 types of charts can be viewed 
+[here](https://rawgit.com/michalsi/jmeter-reports/master/results/results.html)
