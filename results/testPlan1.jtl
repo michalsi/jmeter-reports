@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<sample t="966" lt="53" ts="1464176370388" s="true" lb="Dummy Sampler - 1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="114" ng="1" na="1"/>
+<sample t="816" lt="45" ts="1464176371363" s="true" lb="Dummy Sampler - 2" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="114" ng="1" na="1"/>
+<sample t="377" lt="19" ts="1464176372179" s="true" lb="Dummy Sampler - 3" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="114" ng="1" na="1"/>
+<sample t="460" lt="91" ts="1464176372557" s="true" lb="Dummy Sampler - 1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="114" ng="1" na="1"/>
+<sample t="587" lt="7" ts="1464176373017" s="true" lb="Dummy Sampler - 2" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="114" ng="1" na="1"/>
+<sample t="278" lt="39" ts="1464176373605" s="true" lb="Dummy Sampler - 3" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="114" ng="1" na="1"/>
+<sample t="535" lt="86" ts="1464176373884" s="true" lb="Dummy Sampler - 1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="114" ng="1" na="1"/>
+<sample t="701" lt="61" ts="1464176374419" s="true" lb="Dummy Sampler - 2" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="114" ng="1" na="1"/>
+<sample t="695" lt="87" ts="1464176375121" s="true" lb="Dummy Sampler - 3" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="114" ng="1" na="1"/>
+<sample t="417" lt="86" ts="1464176375817" s="true" lb="Dummy Sampler - 1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="114" ng="1" na="1"/>
+<sample t="515" lt="17" ts="1464176376235" s="true" lb="Dummy Sampler - 2" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="114" ng="1" na="1"/>
+<sample t="740" lt="100" ts="1464176376751" s="true" lb="Dummy Sampler - 3" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="114" ng="1" na="1"/>
+<sample t="796" lt="97" ts="1464176377492" s="true" lb="Dummy Sampler - 1" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="114" ng="1" na="1"/>
+<sample t="167" lt="5" ts="1464176378289" s="true" lb="Dummy Sampler - 2" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="114" ng="1" na="1"/>
+<sample t="810" lt="24" ts="1464176378457" s="true" lb="Dummy Sampler - 3" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="114" ng="1" na="1"/>
+
+</testResults>

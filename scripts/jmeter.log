@@ -1,0 +1,53 @@
+2016/05/25 12:39:29 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_US 
+2016/05/25 12:39:29 INFO  - jmeter.JMeter: Loading user properties from: /Users/michals/Dev/Jmeter-load-tests/apache-jmeter-2.12/bin/user.properties 
+2016/05/25 12:39:29 INFO  - jmeter.JMeter: Loading system properties from: /Users/michals/Dev/Jmeter-load-tests/apache-jmeter-2.12/bin/system.properties 
+2016/05/25 12:39:29 INFO  - jmeter.JMeter: Copyright (c) 1998-2014 The Apache Software Foundation 
+2016/05/25 12:39:29 INFO  - jmeter.JMeter: Version 2.12 r1636949 
+2016/05/25 12:39:29 INFO  - jmeter.JMeter: java.version=1.7.0_71 
+2016/05/25 12:39:29 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
+2016/05/25 12:39:29 INFO  - jmeter.JMeter: os.name=Mac OS X 
+2016/05/25 12:39:29 INFO  - jmeter.JMeter: os.arch=x86_64 
+2016/05/25 12:39:29 INFO  - jmeter.JMeter: os.version=10.11.4 
+2016/05/25 12:39:29 INFO  - jmeter.JMeter: file.encoding=UTF-16 
+2016/05/25 12:39:29 INFO  - jmeter.JMeter: Default Locale=English (United States) 
+2016/05/25 12:39:29 INFO  - jmeter.JMeter: JMeter  Locale=English (United States) 
+2016/05/25 12:39:29 INFO  - jmeter.JMeter: JMeterHome=/Users/michals/Dev/Jmeter-load-tests/apache-jmeter-2.12 
+2016/05/25 12:39:29 INFO  - jmeter.JMeter: user.dir  =/Users/michals/Dev/Jmeter-load-tests/scripts 
+2016/05/25 12:39:29 INFO  - jmeter.JMeter: PWD       =/Users/michals/Dev/Jmeter-load-tests/scripts 
+2016/05/25 12:39:29 INFO  - jmeter.JMeter: IP: 172.16.35.29 Name: MacBook-Pro-3.local FullName: 172.16.35.29 
+2016/05/25 12:39:29 INFO  - jmeter.services.FileServer: Default base='/Users/michals/Dev/Jmeter-load-tests/scripts' 
+2016/05/25 12:39:29 INFO  - jmeter.services.FileServer: Set new base='/Users/michals/Dev/Jmeter-load-tests/scripts/./../tests' 
+2016/05/25 12:39:29 INFO  - jmeter.JMeter: Loading file: ./../tests/testPlan1.jmx 
+2016/05/25 12:39:30 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
+2016/05/25 12:39:30 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
+2016/05/25 12:39:30 INFO  - jmeter.save.SaveService: Using SaveService properties version 2.7 
+2016/05/25 12:39:30 INFO  - jmeter.save.SaveService: Using SaveService properties file version 1618048 
+2016/05/25 12:39:30 INFO  - jmeter.save.SaveService: All converter versions present and correct 
+2016/05/25 12:39:30 INFO  - jmeter.JMeter: Creating summariser <summary> 
+2016/05/25 12:39:30 INFO  - jmeter.engine.StandardJMeterEngine: Listeners will be started after enabling running version 
+2016/05/25 12:39:30 INFO  - jmeter.engine.StandardJMeterEngine: To revert to the earlier behaviour, define jmeterengine.startlistenerslater=false 
+2016/05/25 12:39:30 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/05/25 12:39:30 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/05/25 12:39:30 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/05/25 12:39:30 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
+2016/05/25 12:39:30 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
+2016/05/25 12:39:30 INFO  - jmeter.JMeter: Running test (1464176370332) 
+2016/05/25 12:39:30 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2016/05/25 12:39:30 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Thread Group. 
+2016/05/25 12:39:30 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/05/25 12:39:30 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2016/05/25 12:39:30 INFO  - jmeter.threads.JMeterThread: jmeterthread.startearlier=true (see jmeter.properties) 
+2016/05/25 12:39:30 INFO  - jmeter.threads.JMeterThread: Running PostProcessors in forward order 
+2016/05/25 12:39:30 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/05/25 12:39:30 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/05/25 12:39:30 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2016/05/25 12:39:30 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
+2016/05/25 12:39:30 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
+2016/05/25 12:39:30 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
+2016/05/25 12:39:30 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
+2016/05/25 12:39:31 INFO  - jmeter.reporters.Summariser: summary +      1 in     1s =    1.0/s Avg:   966 Min:   966 Max:   966 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0 
+2016/05/25 12:39:39 INFO  - jmeter.threads.JMeterThread: Thread is done: Thread Group 1-1 
+2016/05/25 12:39:39 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2016/05/25 12:39:39 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/05/25 12:39:39 INFO  - jmeter.reporters.Summariser: summary +     14 in     8s =    1.8/s Avg:   563 Min:   167 Max:   816 Err:     0 (0.00%) Active: 0 Started: 1 Finished: 1 
+2016/05/25 12:39:39 INFO  - jmeter.reporters.Summariser: summary =     15 in     9s =    1.7/s Avg:   590 Min:   167 Max:   966 Err:     0 (0.00%) 

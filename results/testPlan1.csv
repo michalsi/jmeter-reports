@@ -1,0 +1,5 @@
+sampler_label,aggregate_report_count,average,aggregate_report_min,aggregate_report_max,aggregate_report_90%_line,aggregate_report_stddev,aggregate_report_error%,aggregate_report_rate,aggregate_report_bandwidth,average_bytes
+Dummy Sampler - 1,5,634,417,966,796,211.48560234682665,0.0,0.6329113924050633,0.07046083860759493,114.0
+Dummy Sampler - 2,5,557,167,816,701,220.2638417897953,0.0,0.7049203440011279,0.07847746017200057,114.0
+Dummy Sampler - 3,5,580,278,810,740,211.72529371806283,0.0,0.7054176072234764,0.07853281955417607,114.0
+TOTAL,15,590,167,966,810,216.9880693084813,0.0,1.6893794346210158,0.18807544486991778,114.0
