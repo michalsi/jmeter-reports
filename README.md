@@ -13,3 +13,11 @@ There's also a link to 'Summary report' which is produced by separate process bu
 
 **Working Example** of report for 2 test plans and 4 types of charts can be viewed 
 [here](https://rawgit.com/michalsi/jmeter-reports/master/results/results.html)
+
+
+## Execution
+
+
+Just run `runner.sh` from `scripts` directory.
+
+Output is generated in `results` directory.
