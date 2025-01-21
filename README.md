@@ -18,4 +18,4 @@ The output is stored in the `results` directory.
 
 ## Example Report
 
-View a sample report with two test plans and four chart types [here](https://rawgit.com/michalsi/jmeter-reports/master/results/results.html).
+View a sample report with two test plans and four chart types [here](https://htmlpreview.github.io/?https://github.com/michalsi/jmeter-reports/blob/master/results/results.html).
